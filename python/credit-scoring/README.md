@@ -52,20 +52,31 @@ Los parámetros de entrenamiento están definidos en archivos YAML dentro de `co
 Ejemplo:
 
 ```yaml
-model:
-  type: MLP
-  hidden_layers: [128, 64, 32]
-  activation: ReLU
-  dropout: 0.1
-training:
-  batch_size: 32
-  epochs: 50
-  learning_rate: 0.001
-  optimizer: Adam
-dataset:
-  path: ../datasets/german_credit_risk.csv
-  test_size: 0.2
-  random_state: 42
+model_config:
+  model_name: "genia_services_mlp_credit_scoring_model_v1.0.0_20250824.pt"
+  model_version: "v1.0.0"
+
+  architecture:
+    hidden_layers: [128, 64] # 2 capas ocultas, con n nodos en la primera y m nodos en la segunda. [n,m] donde el size del array es el numero de capas ocultas
+    use_batch_norm: true
+    activation_fn: "ReLU" 
+    dropout_rate: 0.2 # apaga el 20% de las neuronas de forma aleatoria
+
+.
+.
+.
+
+
+training_params:
+  test_size: 0.2 # de los 1000 datos solo elegira 200 (20%)
+  random_state: 42 
+  epochs: 100 # epocas de entrenamiento 
+  batch_size: 32 # toma los primero 32 elementos del dataset y lo pasa a la red neuronal para el entrenamiento 
+
+  optimizer:
+    name: "Adam" #optimizador ADAM
+    learning_rate: 0.001
+    weight_decay: 0.0001
 ```
 
 Esto permite modificar hiperparámetros sin tocar el código.
