@@ -99,7 +99,7 @@ Durante el proceso se generan:
 ---
 
 ## Inferencia
-
+++(Este apartado esta en WORKING PROGRESS, pero se tiene una idea de cual sera la forma de hacer predicciones, a continuacion se muestra lo que se espera es el comando para predecir con nuevos datos)**
 Una vez entrenado, el modelo puede usarse para hacer predicciones en nuevos datos:
 
 ```bash
