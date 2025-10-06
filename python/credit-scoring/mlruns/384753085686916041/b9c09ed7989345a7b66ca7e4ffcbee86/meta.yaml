@@ -1,0 +1,15 @@
+artifact_uri: file:///home/yeremy/Proyectos/IA-services/python/credit-scoring/mlruns/384753085686916041/b9c09ed7989345a7b66ca7e4ffcbee86/artifacts
+deleted_time: 1759722102549
+end_time: 1759718547386
+entry_point_name: ''
+experiment_id: '384753085686916041'
+lifecycle_stage: deleted
+run_id: b9c09ed7989345a7b66ca7e4ffcbee86
+run_name: credit_scoring-training_config-german_credit_risk_v100
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759718547356
+status: 4
+tags: []
+user_id: yeremy

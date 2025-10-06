@@ -1,0 +1,27 @@
+benchmark_id: credit_scoring-training_config-germain_credit_risk_v1.0.0
+timestamp: '2025-10-06T03:41:58.529624+00:00'
+model_architecture:
+  model_type: CalificacionCrediticiaModel
+  input_features: 26
+  hidden_layers:
+  - 128
+  - 64
+  use_batch_norm: true
+  activation_fn: ReLU
+  dropout_rate: 0.2
+  output_layer_neurons: 1
+  total_parameters: 12161
+training_configuration:
+  optimizer: Adam
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  loss_function: BCEWithLogitsLoss
+  use_pos_weight: true
+  epochs_run: 13
+  batch_size: 32
+final_validation_metrics:
+  accuracy: 0.65 #total de aciertos
+  precision: 0.8431 # de los que predice positivos cuantos son realmente positivos
+  recall: 0.6143 # de los positivos cuantos acierta
+  f1: 0.7107 #media armonica entre precision y recall
+  roc_auc: 0.7523

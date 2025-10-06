@@ -1,0 +1,10 @@
+artifact_location: file:///home/yeremy/Proyectos/IA-services/python/credit-scoring/mlruns/384753085686916041/models/m-e881f76bb1ed43ddb18003fcd6b2db97/artifacts
+creation_timestamp: 1759722118559
+experiment_id: '384753085686916041'
+last_updated_timestamp: 1759722119118
+model_id: m-e881f76bb1ed43ddb18003fcd6b2db97
+model_type: null
+name: model
+source_run_id: c7b00ce2e2494a2ebe863cf28d9f05eb
+status: 2
+status_message: null

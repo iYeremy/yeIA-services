@@ -1,0 +1,5 @@
+mlflow==3.4.0
+torch==2.7.1
+scikit-learn
+pandas
+numpy
