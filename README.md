@@ -63,7 +63,9 @@ La idea es ir incorporando más módulos, por ejemplo:
 ## Datos
 
 Los datasets se almacenan en `datasets/`.  
-Actualmente se incluye el dataset **German Credit Risk** para el proyecto de scoring.  
+Actualmente se incluye el dataset **German Credit Risk** para el proyecto de scoring. 
+Link de el repositorio: https://github.com/alicenkbaytop/German-Credit-Risk-Classification
+
 Cada nuevo proyecto podrá añadir sus propios datasets.  
 
 ---
