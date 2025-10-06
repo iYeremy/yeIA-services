@@ -99,16 +99,8 @@ Durante el proceso se generan:
 ---
 
 ## Inferencia
-++(Este apartado esta en WORKING PROGRESS, pero se tiene una idea de cual sera la forma de hacer predicciones, a continuacion se muestra lo que se espera es el comando para predecir con nuevos datos)**
-Una vez entrenado, el modelo puede usarse para hacer predicciones en nuevos datos:
+**(Este apartado esta en WORKING PROGRESS,el flujo actual va hasta el entrenamiento de distintos modelos y compararlos por mlflow para decidir cual es "mejor")**
 
-```bash
-python -m src.inference.predict     --model models/genia_services_mlp_credit_scoring_model_v1.1.0_20250824.pt     --input datasets/german_credit_risk.csv
-```
-
-También puede desplegarse como servicio vía `src/server/` para exponer un endpoint REST.
-
----
 
 ## Resultados
 
