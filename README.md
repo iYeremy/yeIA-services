@@ -72,7 +72,7 @@ Cada nuevo proyecto podrá añadir sus propios datasets.
 
 ## Despliegue con contenedores
 
-**(El manejo de Dockerfile aun sigue en desarrollo, por el momento los contenedores estan vacios!)**
+**(El manejo de Dockerfile esta en WORKING PROGRESS, por el momento los contenedores estan vacios)**
 Los contenedores se encuentran en `container-images/`.  
 Cada proyecto puede generar su propia imagen con un `Dockerfile` y ser desplegado de manera independiente.  
 
